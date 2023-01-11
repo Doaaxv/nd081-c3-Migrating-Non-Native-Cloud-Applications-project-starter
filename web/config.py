@@ -12,7 +12,7 @@ class BaseConfig:
     SQLALCHEMY_DATABASE_URI = os.getenv('SQLALCHEMY_DATABASE_URI') or DB_URL
     CONFERENCE_ID = 1
     SECRET_KEY = 'LWd2tzlprdGHCIPHTd4tp5SBFgDszm'
-    SERVICE_BUS_CONNECTION_STRING ='Endpoint=sb://proj3servicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ACRHKPH25laVXbB0npjA9cAIQxLeDDu0Ajlx2Cmm2OE=' 
+    SERVICE_BUS_CONNECTION_STRING ='Endpoint=sb://proj3sb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=LGy86S/SGgtUTin/hwJPa1JVyJ5J4PJN3CAdlDfpgdA=' 
     SERVICE_BUS_QUEUE_NAME ='notificationqueue'
     ADMIN_EMAIL_ADDRESS: 'info@techconf.com'
     SENDGRID_API_KEY = '' #Configuration not required, required SendGrid Account
